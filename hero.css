@@ -1,0 +1,79 @@
+/* Hero section */
+
+ head{
+  font-size: 30px;
+  font-family: 'Bungee Spice', cursive;
+  line-height: 10vh;
+ }
+
+ /* hero image */
+ .hero {
+  position: relative;
+  height: 400px;
+ }
+
+
+ /* background image */
+ .hero img {
+   width: 100%;
+   height: auto;
+ }
+
+ /* entire hero section */
+ header {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+
+  background-image: url(https://picsum.photos/id/39/3456/2304);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+ }
+
+
+ /* Boogie album heading 1 text */
+ h1 {
+  position:absolute;
+  top: 60%;
+  right: 80%;
+  margin: auto;
+  font-size: 100px;
+  padding: 4.8px 200px;
+  font-family: 'Bungee Spice', cursive;
+  gap: 20rem;
+ }
+
+
+ /* paragraph body text after hero section */
+ body {
+  /* page width */
+ font-size: 40px;
+ top: 50%;
+ left: 50%;
+ list-style: none;
+ font-family: 'Bungee Spice', cursive;
+ gap: 1rem;
+
+  background-image: linear-gradient(45deg, hsl(225, 100%, 65%),hsl(300, 76%, 72%));
+  background-image: linear-gradient(45deg, red, hsl(205, 100%, 65%));
+  
+
+  /* above and beyond  */
+  
+  background-blend-mode: multiply;
+
+ margin: auto;
+ min-width: 100vmax;
+ }
+
+
+ /* text in paragraph */
+ p {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  
+  margin: 0;
+  padding-top: 15vh;
+ }
