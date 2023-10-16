@@ -1,4 +1,4 @@
- /* call to action info and button */
+ /* call to action info and button
 
 
   .cta {
@@ -10,9 +10,9 @@
   transform: translate(-50%, -50%);
   text-align: center;
   color: #fff; /* Text color */
- }
+ 
 
- .cta-button {
+  .cta-button {
   display: flex;
   justify-content: flex-end;
   padding: 20px 20px;
@@ -24,26 +24,26 @@
 }
 
   /* links */
-  a {
+  /* a {
     float:left;
     gap: 10%;
     text-decoration: none;
     outline: none;
     text-align: center;
-   }
+   } */
   
-   a:link,
+   /* a:link,
    a:visited, 
    a:focus {
     background-color: teal;
-   }
+   } */
   
    /* hovering state */
-   a:hover {
+   /* a:hover {
      background-color: hsl(215, 100%, 50%);
-   }
+   } */
   
-   a:active {
+   /* a:active {
     background: darkred;
     color: white;
-   }
+   }  */ 
